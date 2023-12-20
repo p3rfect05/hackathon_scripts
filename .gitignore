@@ -1,0 +1,5 @@
+database_manager/.env
+database_manager/main_db.db
+database_manager/data_manager.py
+main.py
+venv
