@@ -13,9 +13,8 @@ env.read_env()
 url = env('BASE_URL')
 apikey = env('apikey')
 supabase: Client = create_client(url, apikey)
-#main_table_name = 'transportation_data'
 metadata_obj = MetaData()
-db_url = 'main_db.db'
+
 
 
 def get_session_maker(url: str) -> tuple[async_sessionmaker, AsyncEngine]:
